@@ -6,7 +6,7 @@ variable "aws_region" {
 }
 
 ## Create Variable for S3 Bucket Name
-variable "my_s3_bucket" {
+variable "private" {
   description = "S3 Bucket name that we pass to S3 Custom Module"
   type = string
   default = "mybucket-september-2023"
